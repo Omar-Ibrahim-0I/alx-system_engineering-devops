@@ -1,2 +1,2 @@
 #!/bin/bash
-grep '^[A-Z]' | cd /tmp/u 
+mv '^[A-Z]' /tmp/u 
