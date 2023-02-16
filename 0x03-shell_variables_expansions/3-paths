@@ -1,0 +1,2 @@
+#!/bin/bash
+printf "$PATH" | grep -o "usr/bin:.*" | grep -o "/" | wc -l
