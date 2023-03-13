@@ -1,2 +1,2 @@
 #!/bin/bash
-cat list | sort | uniq -iu 
+sort < list | tr [:lower:] [:upper:] | uniq -u 
